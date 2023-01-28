@@ -531,13 +531,15 @@ ul.row {
   flex-direction: row-reverse;
 }
 
-/* Section SERVICES
-============================= */
+/* Section SERVICES 
+      ============================= */
+
+.section-services .row {
+  flex-wrap: wrap;
+}
 
 /*** 4. CARD ***/
-.section-services .row{
-  flexx-wrap: wrap;
-}
+
 /* Card (all styles)
       ============================= */
 
