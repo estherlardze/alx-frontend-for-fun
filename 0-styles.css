@@ -1,0 +1,41 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+ ul{
+    display: flex;
+   justify-content: center;
+  
+}
+li{
+    list-style: none;
+    font-weight: 700;
+    font-size: 2rem;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    
+    font-size: 2rem;
+    border-radius: .5rem;
+    text-align: center;
+    background-color: #faf3f3;
+}
+.icon{
+    display: inline-block;
+    background-image: url(./image.png);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+
+}
+.i-html{
+    background-position: left center;
+}
+.i-css{
+    background-position: center;
+}
+.i-js{
+    background-position: right center;
+}
